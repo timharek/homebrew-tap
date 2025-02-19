@@ -1,8 +1,8 @@
 class Yr < Formula
   desc "CLI tool for checking weather"
   homepage "https://git.sr.ht/~timharek/yr"
-  url "https://git.sr.ht/~timharek/yr/archive/v0.0.7.tar.gz"
-  sha256 "d7346b41b86a46b19998fc8b0a9c6584e77b22abeae81c58e5540c794316740c"
+  url "https://git.sr.ht/~timharek/yr/archive/v0.0.8.tar.gz"
+  sha256 "5eff6975d4f9a4f6382d0e1b41fb595730651c85240ba59845c4e6fc4659f8b9"
   license "GPLv3" 
 
   depends_on "go" => :build
