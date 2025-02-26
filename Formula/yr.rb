@@ -8,9 +8,9 @@ class Yr < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", 
-           "-ldflags", "-s -w -X git.sr.ht/~timharek/yr/cmd.Version=v#{version}",
-           *std_go_args
+    system "go", "build",
+           "-ldflags", "-s -w -X main.Version=v#{version}",
+           "-o", bin/"yr", "./cmd/yr"
   end
 
   test do
