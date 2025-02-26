@@ -8,7 +8,9 @@ class Migadu < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build",
+           "-ldflags", "-s -w -X main.Version=v#{version}",
+           "-o", bin/"migadu", "./cmd/migadu"
   end
 
   test do
