@@ -1,8 +1,8 @@
 class Lyn < Formula
   desc "CLI tool for checking weather"
   homepage "https://git.sr.ht/~timharek/lyn"
-  url "https://git.sr.ht/~timharek/lyn/archive/v1.3.0.tar.gz"
-  sha256 "432629cd44d6f2ffb991fdd1b148cb5abac84b37fe909cb1b5d8b6a268926f1e"
+  url "https://git.sr.ht/~timharek/lyn/archive/v1.4.0.tar.gz"
+  sha256 "1296fbd21d2030f320ac0cec668020cb06cc9d7736f9793355fd224a759365e3"
   license "GPLv3" 
 
   depends_on "go" => :build
